@@ -1,0 +1,65 @@
+{
+    "parameters": [
+        {
+            "expr": "1800*10^6",
+            "name": "freq",
+            "value": "1800000000"
+        },
+        {
+            "expr": "3*10^11",
+            "name": "velocity",
+            "value": "300000000000"
+        },
+        {
+            "expr": "velocity/freq",
+            "name": "lamda",
+            "value": "166.666666666667"
+        },
+        {
+            "expr": "lamda*0.47",
+            "name": "l_reflector",
+            "value": "78.3333333333335"
+        },
+        {
+            "expr": "lamda*0.429",
+            "name": "l_dipole",
+            "value": "71.5000000000001"
+        },
+        {
+            "expr": "lamda*0.428",
+            "name": "l_director_1",
+            "value": "71.3333333333335"
+        },
+        {
+            "expr": "lamda*0.423",
+            "name": "l_director_2",
+            "value": "70.5000000000001"
+        },
+        {
+            "expr": "lamda*0.1765",
+            "name": "reflector_dipole",
+            "value": "29.4166666666667"
+        },
+        {
+            "expr": "lamda*0.175",
+            "name": "dipole_director",
+            "value": "29.1666666666667"
+        },
+        {
+            "expr": "lamda*0.180",
+            "name": "director_director",
+            "value": "30.0000000000001"
+        },
+        {
+            "expr": "2.5",
+            "name": "d",
+            "value": "2.5"
+        },
+        {
+            "expr": "5",
+            "name": "s",
+            "value": "5"
+        }
+    ],
+    "version": 1
+}

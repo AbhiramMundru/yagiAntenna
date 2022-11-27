@@ -1,0 +1,152 @@
+02/Nov/2022 17:08:34  The following farfield monitor(s) have been adjusted to model box [-1.99622,
+                      89.7462, -1.99622, 1.99622, -39.9131, 39.9131].
+                        farfield (f=1.8)
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:34  
+                      Solver started at: 05:08 PM Wednesday, 02. November 2022 (India Standard Time)
+                      
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2019.0 Release from 2018-09-20 (change 633648)
+                      
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:34  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+                      
+                      Stimulation at discrete port 1 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:34  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:42  The following discrete edge port is connected to metal material:
+                      	1
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:42  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 2
+                            Number of calculation domains used: 2
+                      
+                         Used point accuracy enhancement value: 55.00%.
+                         PBA fill limit: 98.81% (inverse)
+
+02/Nov/2022 17:08:42  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: expanded open, 4 Layer, depth 34.8884 mm
+                        Xmax: expanded open, 4 Layer, depth 34.8884 mm
+                      
+                        Ymin: expanded open, 4 Layer, depth 34.8884 mm
+                        Ymax: expanded open, 4 Layer, depth 34.8884 mm
+                      
+                        Zmin: expanded open, 4 Layer, depth 35.0184 mm
+                        Zmax: expanded open, 4 Layer, depth 35.0184 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:42  Frequency settings: 
+                      
+                        Fmin:         1
+                        Fmax:         2
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:42  Port: 1
+                      
+02/Nov/2022 17:08:42    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:08:42  Field update statistics:
+                      
+                        Number of components in total: 	688357
+                        Number of lossy metal components:	3592
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:09:18  
+                      --------------------------------------------------------------------------------
+02/Nov/2022 17:09:18  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:09:18  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:09:18  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     21924                         8433500      8433500      
+                        Matrices calc.      126953                        8347656      8329101      
+                        Solver run total    70532                         8441284      8335592      
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	Abhi-Pavillion 
+                      
+                           Number of CPU threads:               4
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	110760
+                        Excitation duration:              	7.10909750e+000 ns 
+                        Calculation time for excitation:  	14 	s
+                        Number of calculated pulse widths:	2.6391 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	19775 
+                        Maximum number of time steps:     	149861 
+                        Time step width:
+                           without subcycles:             	9.48755345e-004 ns
+                           used:                          	9.48755345e-004 ns
+                      
+                        CAD preparation time:             	0      	s
+                        Matrix calculation time:          	8 	s
+                        Solver setup time:                	0 	s
+                        Solver loop time:                 	35 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	43 	s
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:09:18  
+                        Adaptive port meshing time:          	0      	s
+                        Total solver time (all cycles):      	43     	s
+                        solver initialization and clean-up:  	1      	s
+                                                             	------------
+                        Total simulation time:               	44     	s
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:09:18  Solver finished at: 05:09 PM Wednesday, 02. November 2022
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:09:18  The data for field source monitor "field-source (f=1.8)" was written to the
+                      file "field-source (f=1.8)_1.fsm".
+                      
+                      ------------------------------------------------------------------------------
+02/Nov/2022 17:09:20  Creating parametric 1D results for Run ID 12
+                      
+                      ------------------------------------------------------------------------------
